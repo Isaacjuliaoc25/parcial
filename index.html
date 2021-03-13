@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Título de página -->
+        <title>Restaurante BrotherFood</title>
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+    
+        <!-- Componente Menú Hamburguesa -->
+        <aside id="menu-restaurante">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+            
+            <nav>
+                <a href="#ancla-hotdogs">Hot Dogs</a>
+                <a href="#ancla-salchipapa">Salchipapa</a>
+                <a href="#ancla-recomendados">Recomendados</a>
+                <a href="#ancla-desgranados">Desgranados</a>
+                <a href="#ancla-burger">Burger</a>
+            </nav>
+        </aside>
+        <!-- Componente Botón WhatsApp -->
+        <aside id="boton-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=573006225789" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Header Logo y Menú -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/Recurso 1.png">
+                    </a>
+                </figure>
+                
+                <nav>
+                    <a href="#ancla-hotdogs">Hot Dogs</a>
+                    <a href="#ancla-salchipapa">Salchipapa</a>
+                    <a href="#ancla-recomendados">Recomendados</a>
+                    <a href="#ancla-desgranados">Desgranados</a>
+                    <a href="#ancla-burger">Burger</a>
+                </nav>
+            </article>
+        </header>
+
+        <!-- Caja Main -->
+        <main>
+            <!-- Componente Sección tipo Menú a 2 Columnas -->
+            <section id="hotdogs" class="menu">
+                <div id="ancla-hotdogs"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6>
+                            <img src="img/food-and-bevarge-header.jpg"
+                        </h6>
+                        <h3>Hot Dogs</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/perro (2).jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Sencillo</h4>
+                                <p class="texto-producto">Pan fresco, salchicha ahumada, papa chongo, queso mozzarella fundido, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$4.000</p>
+                            </div>
+                        </figure>
+
+                            <figure>
+                                <img src="img/perro (3).jpg">
+                                <div class="info-producto">
+                                    <h4>Gemelo</h4>
+                                    <p class="texto-producto">Pan fresco, lechuga, doble salchicha ahumada, papa chongo, doble queso mozzarella fundido, maíz tierno y salsa de la casa.</p>
+                                    <div class="puntos"></div>
+                                    <p class="precio-producto">$7.000</p>
+                                </div>
+                            </figure>
+
+                        <figure>
+                            <img src="img/perro.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Choriperro</h4>
+                                <p class="texto-producto">Pan fresco, lechuga, salchicha ahumada, chorizo, papa chongo, queso costeño, queso mozzarella fundido, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$7.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/perro (12).jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Butiperro</h4>
+                                <p class="texto-producto">Pan fresco, lechuga, salchicha ahumada, butifarra, papa chongo, queso costeño, queso mozzarella fundido, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$7.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/perro (5).jpg">
+                            <div class="info-producto">
+                                <h4>Suizo</h4>
+                                <p class="texto-producto">Pan fresco, lechuga, salchicha suiza, papa chongo, queso costeño, queso mozzarella fundido, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$9.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/perro (11).jpg">
+                            <div class="info-producto">
+                                <h4>Choriranch</h4>
+                                <p class="texto-producto">Pan fresco, lechuga, chorizo, papa chongo, queso costeño, queso mozzarella fundido, tocino, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$18.000</p>
+                            </div>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Componente Sección tipo Menú a 2 Columnas -->
+            <section id="salchipapa" class="menu">
+                <div id="ancla-salchipapa"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6></h6>
+                        <h3>Salchipapas</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/salchipapa (2).jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Especialidad</h5>
+                                <h4>Sencilla</h4>
+                                <p class="texto-producto">Papas a la francesa, lechuga, salchicha de pollo, papa chongo, queso costeño, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$8.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/salchipapa.jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Choripapa</h4>
+                                <p class="texto-producto">Papas a la francesa, lechuga, chorizo, papa chongo, queso costeño, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$9.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/salchipapa (4).jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Butipapa</h4>
+                                <p class="texto-producto">Papas a la francesa, lechuga, butifarra, papa chongo, queso costeño, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$9.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/salchipapa (3).jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recommended</h5>
+                                <h4>Suiza</h4>
+                                <p class="texto-producto">Papas a la francesa, lechuga, butifarra, papa chongo, queso costeño, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$12.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/salchipapa (5).jpg">
+                            <div class="info-producto">
+                                <h4>Pollo</h4>
+                                <p class="texto-producto">Papas a la francesa, lechuga, butifarra, papa chongo, queso costeño, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$13.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/salchipapa (6).jpg">
+                            <div class="info-producto">
+                                <h4>Combinada</h4>
+                                <p class="texto-producto">Papas a la francesa, lechuga, salchicha de pollo, chorizo, butifarra, papa chongo, queso costeño, maíz tierno y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$14.000</p>
+                            </div>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Componente Destacados 3 Columnas -->
+            <section id="recomendados">
+                <div id="ancla-recomendados"></div>
+                <article>
+                    <nav>
+                        <a href="https://www.instagram.com/p/CMIyoIUnh6D/?utm_source=ig_web_">
+                            <img src="img/desgranado.jpg"
+                        </a>
+
+                        <a href="https://www.instagram.com/p/CLA1aoGHPJJ/?utm_source=ig_web_copy_link" target=_blank">
+                            <img src="img/columna.jpg">
+                        </a>
+
+                        <a href="https://www.instagram.com/p/CH36Tlfn03w/?utm_source=ig_web_copy_link" target=_blank">
+                            <img src="img/columna 3.jpg">
+                        </a>
+                    </nav>
+                </article>
+            </section>
+
+            <!-- Componente Sección tipo Menú a 2 Columnas -->
+            <section id="desgranados" class="menu">
+                <div id="ancla-desgranados"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6></h6>
+                        <h3>Desgranados</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/desgranado.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Chorizo</h4>
+                                <p class="texto-producto">Chorizo, bollo, lechuga, papa chongo, maíz tierno, queso costeño, queso fundido y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$11.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/desgranado (2).jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Butifarra</h4>
+                                <p class="texto-producto">Butifarra, bollo, lechuga, papa chongo, maíz tierno, queso costeño, queso fundido y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$11.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/desgranado (3).jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Pollo</h4>
+                                <p class="texto-producto">Pechuga de pollo, bollo, tocineta, lechuga, papa chongo, maíz tierno, queso costeño, queso fundido y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$13.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/desgranado (4).jpg">
+                            <div class="info-producto">
+                                <h4>Suizo</h4>
+                                <p class="texto-producto">Salchicha suiza, bollo, tocineta, lechuga, papa chongo, maíz tierno, queso costeño, queso fundido y salsa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$13.000</p>
+                            </div>
+                        </figure>
+
+                            </div>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+            <section id="burger" class="menu">
+                <div id="ancla-burger"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6></h6>
+                        <h3>Burgers</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/hamburguesa.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Clásica</h4>
+                                <p class="texto-producto">Pan artesanal, carne angus 100% de res, lechuga crespa, cebolla cruda, tomate, queso mozzarella y salsa de la casa y porción de papas a la francesa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$9.000</p>
+                            </div>
+                        </figure>
+
+                            <figure>
+                                <img src="img/hamburguesa (2).jpg">
+                                <div class="info-producto">
+                                    <h5 class="reco">Recomendado</h5>
+                                    <h4>Bacon</h4>
+                                    <p class="texto-producto">Pan artesanal, carne angus 100% de res, tocineta, lechuga, crespa, cebolla cruda, tomate, queso mozzarella y salsa de la casa y porción de papas a la francesa.</p>
+                                    <div class="puntos"></div>
+                                    <p class="precio-producto">$10.000</p>
+                             </div>
+                         </figure>
+                         <figure>
+                            <img src="img/hamburguesa (5).jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Babosa</h4>
+                                <p class="texto-producto">Pan artesanal, carne angus 100% de res, lechuga crespa, cebolla cruda, tomate, queso mozzarella, salsa de la casa y bañado en queso fundido y porción de papas a la francesa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$11.000</p>
+                         </div>
+                     </figure>
+                         <figure>
+                            <img src="img/hamburguesa (7).jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Brother</h4>
+                                <p class="texto-producto">Pan artesanal, carne angus 100% de res, tocineta, lechuga crespa, cebolla cruda, tomate, doble queso mozzarella y salsa de la casa y porción de papas a la francesa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$12.000</p>
+                            </div>
+                        </figure>
+                     </div>
+                </article>
+            </section>
+        </main>
+
+        <!-- Componente Footer Logo al Centro -->
+        <footer>
+            <figure>
+                <a href="index.html">
+                    <img src="img/Recurso 1.png"
+                </a>
+            </figure>
+        </footer>
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
